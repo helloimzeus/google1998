@@ -1,0 +1,44 @@
+.headerLogo {
+    width: 90%;
+    margin: 0 auto;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+
+}
+
+.searchBox {
+    background-color: #eeeeee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5%;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.searchBox>label>input {
+    width: 30vh;
+    /* border-radius: 10px; */
+    /* border: 0px; */
+    outline: none;
+    /* padding: 10px 0px; */
+}
+
+.boxs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #7ee5da;
+    width: 37%;
+    flex-direction: column;
+}
+
+.boxContainer {
+    width: 90%;
+    margin: 5px auto 0 auto ;
+    display: flex;
+    gap: 0.4%;
+}
